@@ -1,0 +1,93 @@
+# TODO: Fix underscore disappearing at size 10 in NPP (if possible).
+
+# Period
+period touch 0,1 y -0.25 @ 13,14,15,16
+period touch 0,1 y -1 @ 17,18,19,20
+
+# Colon
+colon touch 0,1,4,5 y -0.25 @ 13,14,15,16
+colon touch 0,1,4,5 y -1 @ 17,18,19,20
+
+# Semicolon
+semicolon touch 6,7 y -0.25 @ 13,14,15,16
+semicolon touch 6,7 y -1 @ 17,18,19,20
+
+# Number Sign
+numbersign touch 7,8,11,12,15,16,19,20,23,24,28,29 y 0.25 @ 13,14,15,16,17,18
+
+numbersign touch 7,8,23,24,28,29 y 0.5 @ 19, 20
+numbersign touch 9,10,21,22,30,31 y -0.5 @ 19, 20
+
+# Percent
+percent touch 1,2,3,4,5,22,23,24,25,26 y 0.5 @ 13
+percent touch 1,2,3,4,5,22,23,24,25,26 y 1 @ 14
+
+# Plus
+plus touch 0,11 y 1 @ 12,15,16,19,20
+
+plus touch 3,4,7,8 y 0.25 @ 13,14,15,16,17,18
+plus touch 1,2,9,10 y -0.25 @ 17,18
+
+plus touch 3,4,7,8 y 0.5 @ 19,20
+
+# Minus/Hyphen
+hyphen touch 2,3 y 0.25 @ 13,14,15,16,17,18,19
+hyphen touch 0,1 y -0.5 @ 19,20
+
+# Equal
+equal touch 2,3,6,7 y 0.25 @ 13,14,15,16
+
+equal touch 0,1,4,5 y -0.25 @ 17,18
+equal touch 2,3,6,7 y 0.25  @ 17,18
+
+equal touch 0,1,4,5 y -0.5 @ 19,20
+
+# Slash
+slash touch 2,3 y 0.5 @ 13,14,17,18
+
+# Backslash
+backslash touch 1,2 y 0.5 @ 13,14,17,18
+
+# Curly Brackets
+braceleft touch 1,2,3,21,22,23 y 0.25 @ 13,14,15,16
+braceleft touch 1,2,3,21,22,23 y 0.5 @ 19,20
+
+braceleft touch 24 y 1 @ 17,18
+braceleft touch 21,22,23 y 0.5 @ 17,18
+braceleft touch 0,34,35,36 y -0.25 @ 17,18
+braceleft touch 1,2,3 y 0.25 @ 17,18
+
+braceright touch 14,15,16,34,35,36 y 0.25 @ 13,14,15,16
+braceright touch 14,15,16,34,35,36 y 0.5 @ 19,20
+
+braceright touch 34,35,36 y 0.25 @ 17,18
+braceright touch 14,15,16 y 0.5 @ 17,18
+braceright touch 0,1,2 y -0.25 @ 17,18
+
+
+# Parenthesis
+parenleft touch 6,7 y -0.5 @ 13,14
+parenright touch 7,8 y -0.5 @ 13,14
+
+parenleft touch 6,7 y 0.5 @ 15,16,19,20
+parenright touch 7,8 y 0.5 @ 15,16,19,20
+
+# Angle Brackets
+less touch 1,2,3,4,5,6 y 1 @ 13
+greater touch 1,2,3,4,5,6 y 1 @ 13
+
+# Square Brackets
+bracketleft touch 6,7 y 0.25 @ 13,14,15,16,17,18
+bracketleft touch 6,7 y 0.5 @ 19,20
+
+bracketleft touch 2,3 y 0.25 @ 13,14,15,16
+bracketleft touch 2,3 y 0.5 @ 17,18,19,20
+
+bracketright touch 1,2 y 0.25 @ 13,14,15,16,17,18
+bracketright touch 1,2 y 0.5 @ 19,20
+
+bracketright touch 5,6 y 0.25 @ 13,14,15,16
+bracketright touch 5,6 y 0.5 @ 17,18,19,20
+
+# Underscore
+underscore touch 1,2 y 0.25 @ 16,17,18
