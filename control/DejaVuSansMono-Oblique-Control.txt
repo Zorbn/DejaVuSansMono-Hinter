@@ -1,0 +1,41 @@
+# TODO: Port hints from regular version.
+
+# Number Sign
+numbersign touch 7,8,11,12,15,16,19,20,23,24,28,29 y 0.25 @ 13,14,15,16,17,18
+
+numbersign touch 7,8,23,24,28,29 y 0.5 @ 19, 20
+numbersign touch 9,10,21,22,30,31 y -0.5 @ 19, 20
+
+# Percent
+percent touch 1,2,3,4,5,22,23,24,25,26 y 0.5 @ 13
+percent touch 1,2,3,4,5,22,23,24,25,26 y 1 @ 14
+
+# Plus
+plus touch 0,11 y 1 @ 12,15,16,19,20
+
+plus touch 3,4,7,8 y 0.25 @ 13,14,15,16,17,18
+plus touch 1,2,9,10 y -0.25 @ 17,18
+
+plus touch 3,4,7,8 y 0.5 @ 19,20
+
+# Minus/Hyphen
+hyphen touch 2,3 y 0.25 @ 13,14,15,16,17,18,19
+hyphen touch 0,1 y -0.5 @ 19,20
+
+# Equal
+equal touch 2,3,6,7 y 0.25 @ 13,14,15,16
+
+equal touch 0,1,4,5 y -0.25 @ 17,18
+equal touch 2,3,6,7 y 0.25  @ 17,18
+
+equal touch 0,1,4,5 y -0.5 @ 19,20
+
+# Slash
+slash touch 0,3 y 0.5 @ 13,14,17,18
+
+# Backslash
+backslash touch 0,1 y 0.5 @ 13,14,17,18
+
+# Underscore
+underscore touch 1,2 y 0.25 @ 16,17,18
+underscore touch 0,1,2,3 y 1 @ 13
