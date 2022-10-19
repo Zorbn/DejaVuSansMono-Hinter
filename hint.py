@@ -34,5 +34,5 @@ def main():
         subprocess.run(i_cmd)
         print("Hinted", i)
 
-if name_== "__main__":
+if __name__ == "__main__":
     main()
