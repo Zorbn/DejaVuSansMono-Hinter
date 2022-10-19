@@ -55,13 +55,15 @@ braceleft touch 21,22,23 y 0.5 @ 17,18
 braceleft touch 0,34,35,36 y -0.25 @ 17,18
 braceleft touch 1,2,3 y 0.25 @ 17,18
 
+braceleft touch 0,1,2,3,4,5,33,34,35,36 y 1 @ 12
+braceright touch 0,1,2,3,4,32,33,34,35,36 y 1 @ 12
+
 braceright touch 14,15,16,34,35,36 y 0.25 @ 13,14,15,16
 braceright touch 14,15,16,34,35,36 y 0.5 @ 19,20
 
 braceright touch 34,35,36 y 0.25 @ 17,18
 braceright touch 14,15,16 y 0.5 @ 17,18
 braceright touch 0,1,2 y -0.25 @ 17,18
-
 
 # Parenthesis
 parenleft touch 6,7 y -0.5 @ 13,14
