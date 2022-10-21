@@ -1,0 +1,11 @@
+# Equal
+equal touch 2,3,6,7 y 0.25 @ 8,9,10,11
+equal touch 2,3,6,7 y 0.5 @ 12
+
+equal touch 0,1,4,5 y -0.25 @ 11,12
+
+equal touch 6,7 y -0.25 @ 13,14
+equal touch 0,1 y 0.25 @ 13,14
+
+equal touch 6,7 y 0.25 @ 19,20
+equal touch 0,1 y -0.25 @ 19,20
